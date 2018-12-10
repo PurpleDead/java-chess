@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Pontes
+ *
+ */
+module chess {
+}
