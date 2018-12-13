@@ -57,6 +57,8 @@ public class UI {
 		if(!chessMatch.getCheckMate()) {
 			System.out.println();
 			System.out.println("Waiting for player: " + chessMatch.getCurrentPlayer());	
+			if(chessMatch.getEnPassantVunerable() != null)
+				System.out.println("WE HAVE AN EN PASSANT: " + chessMatch.getEnPassantVunerable().getColor());
 		
 			if(chessMatch.getCheck())
 				System.out.println("CHECK!");

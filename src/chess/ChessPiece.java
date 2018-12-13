@@ -30,6 +30,10 @@ public abstract class ChessPiece extends Piece {
 		moveCount--;
 	}
 	
+	public int direction(Color color) {
+		return color == Color.WHITE ? 1 : -1;
+	}
+	
 	public ChessPosition getChessPosition() {
 		return ChessPosition.fromPosition(position);
 	}
