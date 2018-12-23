@@ -1,4 +1,4 @@
-#Java Chess Game
+# Java Chess Game
 
 The game is part of a course. Therefore, most of the code was not made 
 by me. Still, I made some changes when I saw things that could have done 
